@@ -1,0 +1,87 @@
+/*CSS Styles*/
+
+body {
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  background-color: #63AD6C;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  color: #FFFFFF;
+  font-size: 25px;
+  text-align: center;
+}
+
+a {
+  color: black;
+  display: block;
+  font-size: 25px;
+  margin-top: 10px;
+  text-align: center;  
+  text-decoration: none;
+}
+
+.buttons {
+  margin: 50px auto;
+  width: 450px;
+}
+
+.container {
+  height: 1100px;
+  margin: 10px auto;
+  width: 1100px;
+}
+
+.row {
+  margin: 0 auto;
+  width: auto;
+}
+
+.row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.cell {
+  background-color: #B0AFB3;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  float: left;
+}
+
+.cell:last-child {
+  border-right: 1px solid black;
+}
+
+.row:last-child > .cell {
+  border-bottom: 1px solid black;
+}
+
+.rounded_corners {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #f5f5f5;
+  border: 1px solid rgba(0,0,0,0.1);
+  font-weight: bold;
+  height: 40px;
+  width: 200px;
+}
+
+.btn:hover {
+  border-color: #B9B8BA;
+}
+
+.horizontal {
+  display: inline-block;
+  margin: 5px 10px;
+}
